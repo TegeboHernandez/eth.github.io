@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!--Dynamisk navigering -->
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Emelie Tegebo-hernandezs portfolio</title>
+
+   <!--Import av css klassen-->
+  <link rel="stylesheet" href="style.css">
+
+   <!--importera font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+
+  <!--importera ikoner -->
+  <script src="https://kit.fontawesome.com/83633a234e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!--Navigering -->
+  <section class="header">
+
+    <nav>
+      <a href="start.html"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">Hem</a></li>
+          <li><a href="">Grafisk design</a></li>
+          <li><a href="">Event - Projektledning och Design</a></li>
+          <li><a href="">Hobbyföretag</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>EMELIE TEGEBO- <br>HERNANDEZ</h1>
+    </div>
+
+
+  </section>
+
+  <!--Presentation -->
+
+  <section class="areas">
+
+    <div class="row">
+
+      <div class="areas-co">
+        <img src="images/TGBSTUDIO-s.jpg" alt="TGBSTUDIOS">
+        <h3>TGBSTUDIOS</h3>
+      </div>
+
+      <div class="areas-co">
+        <img src="images/Eventdesign.png" alt="TGBSTUDIOS">
+        <h3>Eventdesign</h3>
+      </div>
+
+      <div class="areas-co">
+        <img src="images/projektledning.png" alt="TGBSTUDIOS">
+        <h3>Projektledning</h3>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="areas-co" class="bild1">
+        <img src="images/Förpackningsdesign.png" alt="TGBSTUDIOS">
+        <h3>Förpackningar</h3>
+      </div>
+
+      <div class="areas-co">
+        <img src="images/Grafisk design.png" alt="TGBSTUDIOS">
+        <h3>Grafisk design</h3>
+      </div>
+
+      <div class="areas-co">
+        <img src="images/EmelieTegeboS.jpg" alt="TGBSTUDIOS">
+        <h3>Om mig</h3>
+      </div>
+
+    </div>
+
+  </section>
+  
+
+  <!--Javascript för stänga och öppna navigering -->
+  <script>
+
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+      navLinks.style.right = "-170px";
+    }
+
+  </script>
+  
+</body>
+</html>
