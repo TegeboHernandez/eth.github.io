@@ -61,7 +61,7 @@ width: 100%;
   text-align: left;
 }
 .text-box h1{
-  font-size: 62px;
+  font-size: 4vw;
   font-weight: 300;
 }
 
@@ -113,7 +113,7 @@ nav .fa{
 /* Presentation om områden */
 
 .areas {
-  width: 80%;
+  max-width: 50%;
   margin: auto;
   text-align: center;
   padding-top: 70px;
